@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    #加载yaml文件
+    active: dev
+
+#编码格式
+  http.encoding.force: true
+  http.encoding.charset: UTF-8
+  http.encoding.enabled: true
+server:
+  tomcat.uri-encoding: UTF-8
