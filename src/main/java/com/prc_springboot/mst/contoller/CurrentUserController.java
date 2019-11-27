@@ -29,5 +29,9 @@ public class CurrentUserController {
         }
     }
 
+    @GetMapping("/test/play")
+    public String play(){
+        return "play";
+    }
 
 }
