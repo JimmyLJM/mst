@@ -13,6 +13,7 @@ public class HelloController {
         return "Hello kitty";
     }
 
+    // 测试分支
     @GetMapping("/bye")
     public String sayBye(){
         return "Hello bye bye";
